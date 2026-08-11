@@ -1,0 +1,6 @@
+﻿Estimator,Effect (pp),SE (pp),99% CI (pp),Two-sided p,N,Clusters
+Unadjusted voter-level ITT,8.1310,0.3370,"[7.2630, 8.9989]",2.41e-128,"229,444","119,999"
+Block FE + baseline adjustment,8.1465,0.2952,"[7.3862, 8.9068]",3.72e-167,"229,444","119,999"
+Household-level replication,8.4788,0.3401,"[7.6027, 9.3549]",8.07e-137,"119,999","119,999"
+Exact-duplicate sensitivity,8.1253,0.3369,"[7.2574, 8.9932]",3.53e-128,"229,378","119,999"
+Block-stratified randomization inference,8.4788,-,-,0.001,"119,999","10,000 blocks"

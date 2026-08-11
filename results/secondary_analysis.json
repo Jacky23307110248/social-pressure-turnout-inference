@@ -1,0 +1,280 @@
+{
+  "code": "SOCIAL-PRESSURE-SECONDARY",
+  "incremental_pressure": {
+    "raw": [
+      {
+        "contrast": "civic_minus_control",
+        "effect": 0.017899344084852664,
+        "cluster_se": 0.0032366266256325265,
+        "t_statistic": 5.530246814105299,
+        "degrees_of_freedom": 180001,
+        "two_sided_p": 3.202230352069955e-08
+      },
+      {
+        "contrast": "hawthorne_minus_civic",
+        "effect": 0.007836968043498486,
+        "cluster_se": 0.004202346155276125,
+        "t_statistic": 1.8649030217701186,
+        "degrees_of_freedom": 180001,
+        "two_sided_p": 0.06219662482876607
+      },
+      {
+        "contrast": "self_minus_hawthorne",
+        "effect": 0.022776878834935798,
+        "cluster_se": 0.004251363428876246,
+        "t_statistic": 5.357546870782666,
+        "degrees_of_freedom": 180001,
+        "two_sided_p": 8.446270470857139e-08
+      },
+      {
+        "contrast": "neighbors_minus_self",
+        "effect": 0.032796721957225994,
+        "cluster_se": 0.0043375251755575295,
+        "t_statistic": 7.561160023240769,
+        "degrees_of_freedom": 180001,
+        "two_sided_p": 4.013709034898542e-14
+      }
+    ],
+    "block_baseline_adjusted": [
+      {
+        "contrast": "civic_minus_control",
+        "effect": 0.01849431319683334,
+        "cluster_se": 0.0028986192816117928,
+        "t_statistic": 6.380387142995018,
+        "degrees_of_freedom": 180001,
+        "two_sided_p": 1.7706766033287527e-10,
+        "holm_adjusted_p": 5.312029809986258e-10
+      },
+      {
+        "contrast": "hawthorne_minus_civic",
+        "effect": 0.006906459201766836,
+        "cluster_se": 0.003751529992905873,
+        "t_statistic": 1.840971340980059,
+        "degrees_of_freedom": 180001,
+        "two_sided_p": 0.06562740330698359,
+        "holm_adjusted_p": 0.06562740330698359
+      },
+      {
+        "contrast": "self_minus_hawthorne",
+        "effect": 0.022784959820312367,
+        "cluster_se": 0.003786250503009192,
+        "t_statistic": 6.017816254419405,
+        "degrees_of_freedom": 180001,
+        "two_sided_p": 1.7712557078417365e-09,
+        "holm_adjusted_p": 3.542511415683473e-09
+      },
+      {
+        "contrast": "neighbors_minus_self",
+        "effect": 0.0329666835022708,
+        "cluster_se": 0.003866842107345317,
+        "t_statistic": 8.525479599916544,
+        "degrees_of_freedom": 180001,
+        "two_sided_p": 1.5332910479680824e-17,
+        "holm_adjusted_p": 6.13316419187233e-17
+      }
+    ],
+    "all_adjacent_contrasts_resolved": false
+  },
+  "heterogeneity": {
+    "interactions": [
+      {
+        "contrast": "high_minus_low_prior_propensity",
+        "effect": 0.031915045886225735,
+        "cluster_se": 0.005639572689186963,
+        "t_statistic": 5.659124838911653,
+        "degrees_of_freedom": 119998,
+        "two_sided_p": 1.524923419265255e-08,
+        "reference_effect": 0.061619026706029145,
+        "subgroup_effect": 0.09353407259225488,
+        "observations": 229444,
+        "holm_adjusted_p": 4.574770257795765e-08,
+        "material_and_resolved": true
+      },
+      {
+        "contrast": "sex_1_minus_sex_0",
+        "effect": -0.0008486718458985409,
+        "cluster_se": 0.003969233760048742,
+        "t_statistic": -0.21381251324641543,
+        "degrees_of_freedom": 119998,
+        "two_sided_p": 0.8306936297087395,
+        "reference_effect": 0.0817481771088654,
+        "subgroup_effect": 0.08089950526296685,
+        "observations": 229444,
+        "holm_adjusted_p": 0.8306936297087395,
+        "material_and_resolved": false
+      },
+      {
+        "contrast": "single_minus_multi_voter_household",
+        "effect": 0.012546575422219097,
+        "cluster_se": 0.008231114158968275,
+        "t_statistic": 1.5242864064215265,
+        "degrees_of_freedom": 119998,
+        "two_sided_p": 0.12743981668617668,
+        "reference_effect": 0.07947138570596118,
+        "subgroup_effect": 0.09201796112818028,
+        "observations": 229444,
+        "holm_adjusted_p": 0.25487963337235336,
+        "material_and_resolved": false
+      }
+    ],
+    "prior_vote_score_bins": [
+      {
+        "observations": 14488,
+        "clusters": 13023,
+        "effect": 0.023965390673362928,
+        "cluster_se": 0.006937046738193761,
+        "t_statistic": 3.454696440405263,
+        "degrees_of_freedom": 13022,
+        "two_sided_p": 0.000552667301554183,
+        "treated_code": 3,
+        "treated_label": "neighbors",
+        "control": 12111,
+        "treated": 2377,
+        "control_mean": 0.08331269094211874,
+        "treated_mean": 0.1072780816154817,
+        "prior_vote_score": 0,
+        "holm_adjusted_p": 0.001105334603108366
+      },
+      {
+        "observations": 17275,
+        "clusters": 15658,
+        "effect": 0.058712916835461794,
+        "cluster_se": 0.008762662709552203,
+        "t_statistic": 6.700351112619989,
+        "degrees_of_freedom": 15657,
+        "two_sided_p": 2.1501109118990345e-11,
+        "treated_code": 3,
+        "treated_label": "neighbors",
+        "control": 14378,
+        "treated": 2897,
+        "control_mean": 0.1546112115732369,
+        "treated_mean": 0.21332412840869866,
+        "prior_vote_score": 1,
+        "holm_adjusted_p": 6.450332735697103e-11
+      },
+      {
+        "observations": 53971,
+        "clusters": 42864,
+        "effect": 0.07176904391835907,
+        "cluster_se": 0.0057654535466126556,
+        "t_statistic": 12.448117626500544,
+        "degrees_of_freedom": 42863,
+        "two_sided_p": 1.6494755284467164e-35,
+        "treated_code": 3,
+        "treated_label": "neighbors",
+        "control": 44925,
+        "treated": 9046,
+        "control_mean": 0.21929883138564274,
+        "treated_mean": 0.29106787530400174,
+        "prior_vote_score": 2,
+        "holm_adjusted_p": 6.597902113786866e-35
+      },
+      {
+        "observations": 90764,
+        "clusters": 71045,
+        "effect": 0.09531696955320305,
+        "cluster_se": 0.004946857905578216,
+        "t_statistic": 19.26818424392602,
+        "degrees_of_freedom": 71044,
+        "two_sided_p": 1.6153486694591894e-82,
+        "treated_code": 3,
+        "treated_label": "neighbors",
+        "control": 75705,
+        "treated": 15059,
+        "control_mean": 0.3094907866059045,
+        "treated_mean": 0.4048077561591075,
+        "prior_vote_score": 3,
+        "holm_adjusted_p": 9.692092016755137e-82
+      },
+      {
+        "observations": 43628,
+        "clusters": 36334,
+        "effect": 0.09869862842274922,
+        "cluster_se": 0.007105442684085143,
+        "t_statistic": 13.89056710622909,
+        "degrees_of_freedom": 36333,
+        "two_sided_p": 9.352099735316612e-44,
+        "treated_code": 3,
+        "treated_label": "neighbors",
+        "control": 36397,
+        "treated": 7231,
+        "control_mean": 0.4192103744814133,
+        "treated_mean": 0.5179090029041626,
+        "prior_vote_score": 4,
+        "holm_adjusted_p": 4.676049867658306e-43
+      },
+      {
+        "observations": 9318,
+        "clusters": 8129,
+        "effect": 0.04408606812439957,
+        "cluster_se": 0.013695370053365546,
+        "t_statistic": 3.21904906202704,
+        "degrees_of_freedom": 8128,
+        "two_sided_p": 0.0012912165631382623,
+        "treated_code": 3,
+        "treated_label": "neighbors",
+        "control": 7727,
+        "treated": 1591,
+        "control_mean": 0.6416461757473794,
+        "treated_mean": 0.6857322438717788,
+        "prior_vote_score": 5,
+        "holm_adjusted_p": 0.0012912165631382623
+      }
+    ]
+  },
+  "interference_saturation": {
+    "households": 180002,
+    "blocks": 10000,
+    "inconsistent_households": 0,
+    "allocation_patterns": [
+      {
+        "control": 10,
+        "hawthorne": 2,
+        "civic_duty": 2,
+        "neighbors": 2,
+        "self": 2,
+        "block_size": 18,
+        "neighbors_share": 0.1111111111111111,
+        "blocks": 9997
+      },
+      {
+        "control": 9,
+        "hawthorne": 3,
+        "civic_duty": 2,
+        "neighbors": 2,
+        "self": 2,
+        "block_size": 18,
+        "neighbors_share": 0.1111111111111111,
+        "blocks": 1
+      },
+      {
+        "control": 10,
+        "hawthorne": 2,
+        "civic_duty": 3,
+        "neighbors": 2,
+        "self": 2,
+        "block_size": 19,
+        "neighbors_share": 0.10526315789473684,
+        "blocks": 1
+      },
+      {
+        "control": 10,
+        "hawthorne": 3,
+        "civic_duty": 2,
+        "neighbors": 2,
+        "self": 2,
+        "block_size": 19,
+        "neighbors_share": 0.10526315789473684,
+        "blocks": 1
+      }
+    ],
+    "neighbors_share_frequencies": {
+      "0.10526315789473684": 2,
+      "0.1111111111111111": 9998
+    },
+    "maximum_distinct_neighbor_shares_within_block_size": 1,
+    "spillover_saturation_identifiable": false,
+    "decision": "Do not estimate spillovers"
+  },
+  "claim_boundary": "Incremental contrasts identify bundled message-arm differences; they are not mediation effects. Spillovers are not estimated without saturation support."
+}

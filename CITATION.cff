@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite it together with the original experiment and dataset.
+title: Social Pressure, Verified Turnout, and the Limits of Direct-Effect Interpretation
+type: software
+authors:
+  - family-names: Hong
+    given-names: Jiaquan
+version: 1.0.0
+date-released: 2026-08-12
+repository-code: https://github.com/Jacky23307110248/social-pressure-turnout-inference
+keywords:
+  - causal inference
+  - randomized field experiment
+  - voter turnout
+  - randomization inference
+  - interference
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Hong
+      given-names: Jiaquan
+  title: Social Pressure, Verified Turnout, and the Limits of Direct-Effect Interpretation
+  year: 2026

@@ -1,0 +1,12 @@
+/data/raw/
+/tmp/
+/build/
+/.pytest_cache/
+/**/__pycache__/
+*.py[cod]
+/technical_note/*.aux
+/technical_note/*.log
+/technical_note/*.out
+/technical_note/technical_note.pdf
+*.egg-info/
+

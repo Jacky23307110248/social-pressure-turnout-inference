@@ -1,0 +1,108 @@
+{
+  "code": "SOCIAL-PRESSURE-ROBUSTNESS",
+  "adjusted_with_g2004": {
+    "observations": 229444,
+    "clusters": 119999,
+    "effect": 0.08146466874413921,
+    "cluster_se": 0.0029516286175288267,
+    "t_statistic": 27.599904764557866,
+    "degrees_of_freedom": 119998,
+    "two_sided_p": 3.7300194261116506e-167,
+    "block_fixed_effects": true,
+    "baselines": [
+      "g2002",
+      "g2000",
+      "p2004",
+      "p2002",
+      "p2000",
+      "sex",
+      "yob",
+      "hh_size",
+      "g2004"
+    ]
+  },
+  "primary_99pct_confidence_interval": {
+    "level": 0.99,
+    "critical_t": 2.5758702760753067,
+    "lower": 0.07263039587473481,
+    "upper": 0.08998942996629135
+  },
+  "holm_four_arm_family": [
+    {
+      "treatment": "civic_duty",
+      "effect": 0.01789934408485271,
+      "raw_p": 3.2042181657609015e-08,
+      "holm_p": 3.2042181657609015e-08
+    },
+    {
+      "treatment": "hawthorne",
+      "effect": 0.025736312128351143,
+      "raw_p": 2.819304450082749e-15,
+      "holm_p": 5.638608900165498e-15
+    },
+    {
+      "treatment": "self",
+      "effect": 0.048513190963286996,
+      "raw_p": 7.015127392703101e-49,
+      "holm_p": 2.1045382178109304e-48
+    },
+    {
+      "treatment": "neighbors",
+      "effect": 0.08130991292051308,
+      "raw_p": 2.4070953215770137e-128,
+      "holm_p": 9.628381286308055e-128
+    }
+  ],
+  "exact_duplicate_sensitivity": {
+    "observations": 229378,
+    "clusters": 119999,
+    "effect": 0.08125326511276969,
+    "cluster_se": 0.0033694203232925266,
+    "t_statistic": 24.114909188109458,
+    "degrees_of_freedom": 119998,
+    "two_sided_p": 3.52833912308101e-128,
+    "treated_code": 3,
+    "treated_label": "neighbors",
+    "control": 191181,
+    "treated": 38197,
+    "control_mean": 0.29670835490974523,
+    "treated_mean": 0.3779616200225149,
+    "rows_removed": 119,
+    "effect_change_from_primary": -5.664780774339295e-05
+  },
+  "household_size_transport": {
+    "single_voter_household": {
+      "observations": 31845,
+      "clusters": 31845,
+      "effect": 0.09201796112818045,
+      "cluster_se": 0.007338374264754215,
+      "t_statistic": 12.539284289455958,
+      "degrees_of_freedom": 31844,
+      "two_sided_p": 5.535751023910978e-36,
+      "treated_code": 3,
+      "treated_label": "neighbors",
+      "control": 26481,
+      "treated": 5364,
+      "control_mean": 0.3306144027793512,
+      "treated_mean": 0.42263236390753167
+    },
+    "multi_voter_household": {
+      "observations": 197599,
+      "clusters": 88154,
+      "effect": 0.07947138570596125,
+      "cluster_se": 0.0037284934177003637,
+      "t_statistic": 21.31461070272644,
+      "degrees_of_freedom": 88153,
+      "two_sided_p": 1.4929159189108117e-100,
+      "treated_code": 3,
+      "treated_label": "neighbors",
+      "control": 164762,
+      "treated": 32837,
+      "control_mean": 0.2911775773540015,
+      "treated_mean": 0.37064896305996287
+    }
+  },
+  "identification_boundary": "Household-assignment policy ITT; cross-household interference from neighbor disclosures is possible and not separately identified.",
+  "ethics_boundary": "Turnout is public record, but privacy, autonomy, complaints, and removal requests remain material policy costs.",
+  "transport_boundary": "Low-salience 2006 Michigan primary; no automatic transport to high-salience elections, other jurisdictions, or digital delivery."
+}

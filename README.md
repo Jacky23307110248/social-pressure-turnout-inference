@@ -2,6 +2,8 @@
 
 This repository provides a design-aware reanalysis of a large household-randomized voter-turnout field experiment. It uses real administrative records from the 2006 Michigan primary and focuses on the effect of assignment to the Neighbors social-pressure mailer relative to no mailing.
 
+The complete analysis is presented in the [Technical Note](output/pdf/social_pressure_technical_note.pdf).
+
 The primary voter-level intention-to-treat estimate is an 8.131 percentage-point increase in verified turnout. The household-clustered standard error is 0.337 percentage points and the 99 percent confidence interval is 7.263 to 8.999 percentage points. Household aggregation, block-stratified randomization inference, baseline adjustment, exact-duplicate removal, balance checks, and leave-one-block-out analysis support the same substantive conclusion.
 
 The defensible estimand is a household-assignment policy effect under the realized allocation environment. The design does not identify a pure recipient-level direct effect or a spillover dose-response because treatment saturation is essentially fixed within observed block sizes.
@@ -40,7 +42,7 @@ Building the technical note additionally requires XeLaTeX from TeX Live 2024 or 
 python scripts/build_report.py
 ```
 
-The stable publication artifact is `output/pdf/social_pressure_technical_note.pdf`.
+The stable publication artifact is the [Technical Note](output/pdf/social_pressure_technical_note.pdf).
 
 ## Repository structure
 

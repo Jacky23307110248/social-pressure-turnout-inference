@@ -14,7 +14,7 @@ The analysis downloads the public file with identifier `42238` from the Yale Dat
 
 `05807BCBEDAACF02EC6E6838E1B9C9B2FC99AD9D8C63F80C162991970044C6CE`
 
-The data are distributed under CC0 1.0 and are not committed to this repository. The downloaded table contains coded demographic and turnout-history variables but no names, street addresses, email addresses, or telephone numbers.
+The data are distributed under CC0 1.0 and are downloaded by the analysis pipeline. The table contains coded demographic and turnout-history variables but no names, street addresses, email addresses, or telephone numbers.
 
 ## Reproduction
 
